@@ -1,9 +1,10 @@
 import { Hamburger02Icon, Menu01Icon, Menu02Icon } from 'hugeicons-react';
 import React, { useState } from 'react';
+import { Link as ScrollLink, animateScroll } from 'react-scroll';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(false); // initialize togglemenu state to keep track if mobile menu is open
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <>
@@ -12,22 +13,72 @@ const Navbar = () => {
           <span>Timothy Onyeacholam</span>
         </Link>
         <div className="text-lightgray hidden items-center justify-center md:flex md:space-x-10 md:text-xs lg:space-x-20 lg:text-lg">
-          <NavLink to="/" className="group w-fit">
+          <ScrollLink
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-170}
+            to="home"
+            className="group w-fit cursor-pointer"
+          >
             Home{' '}
-            <div class="h-[2px] w-0 bg-[#3572EF] transition-all duration-500 group-hover:w-full"></div>
-          </NavLink>
-          <NavLink to="/about-us" className="group w-fit">
+            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+          </ScrollLink>
+          <ScrollLink
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-170}
+            to="about"
+            className="group w-fit cursor-pointer"
+          >
             About
-            <div class="h-[2px] w-0 bg-[#3572EF] transition-all duration-500 group-hover:w-full"></div>
-          </NavLink>
-          <NavLink to="/services" className="group w-fit">
-            Projects
-            <div class="h-[2px] w-0 bg-[#3572EF] transition-all duration-500 group-hover:w-full"></div>
-          </NavLink>
-          <NavLink to="/vendor" className="group w-fit">
+            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+          </ScrollLink>
+          <ScrollLink
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-170}
+            to="skills"
+            className="group w-fit cursor-pointer"
+          >
+            Skills & Tools
+            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+          </ScrollLink>
+          <ScrollLink
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-170}
+            to="work"
+            className="group w-fit cursor-pointer"
+          >
+            Work
+            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+          </ScrollLink>
+          <ScrollLink
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-170}
+            to="testimonials"
+            className="group w-fit cursor-pointer"
+          >
+            Testimonials
+            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+          </ScrollLink>
+          <ScrollLink
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-170}
+            to="contact"
+            className="group w-fit cursor-pointer"
+          >
             Contact
-            <div class="h-[2px] w-0 bg-[#3572EF] transition-all duration-500 group-hover:w-full"></div>
-          </NavLink>
+            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+          </ScrollLink>
         </div>
 
         <div className="block cursor-pointer md:hidden">

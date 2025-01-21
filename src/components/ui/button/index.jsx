@@ -51,8 +51,8 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  border: '1px solid #7E60BF',
-  backgroundColor: '#7E60BF',
+  border: '1px solid #174677',
+  backgroundColor: '#174677',
   textColor: '#ffffff',
   borderRadius: '5px',
   padding: '15px 30px',

@@ -19,3 +19,13 @@
 .ant-menu-item-icon {
   stroke-width: 2.2px !important;
 }
+
+.snap-container {
+  scroll-snap-type: y;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.snap-start {
+  scroll-snap-align: start;
+}

@@ -1,18 +1,14 @@
-import React from 'react';
 import { Button } from '../../../../components';
 import {
-  Github01Icon,
   GithubIcon,
-  Linkedin01Icon,
   Linkedin02Icon,
   TwitterIcon,
-  TwitterSquareIcon,
   WhatsappIcon,
 } from 'hugeicons-react';
 
 const HeroSection = () => {
   return (
-    <section className="relative h-screen w-full">
+    <section className="relative w-full md:mb-24 mb-16" name="home">
       <div
         className="h-[80vh] w-full bg-cover bg-center bg-no-repeat md:h-screen"
         style={{
@@ -21,7 +17,7 @@ const HeroSection = () => {
       >
         <div className="flex h-[80vh] flex-col items-center justify-center gap-y-8 px-5 pt-10 text-center transition-all duration-1000 ease-out md:h-screen md:gap-y-10 lg:gap-y-12">
           <div className="text-3xl font-bold uppercase leading-[2.8rem] tracking-[3px] md:text-[52px] md:leading-none">
-            Hello, I'm Timothy Onyeacholam
+            Hello, I&apos;m Timothy Onyeacholam
           </div>
           <div className="text-center text-lg font-normal text-dark md:w-3/4 md:text-xl md:leading-8 lg:w-[42%] lg:text-2xl">
             A highly skilled Frontend Developer crafting responsive,
