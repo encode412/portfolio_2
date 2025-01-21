@@ -11,7 +11,7 @@ const Footer = () => {
             Lets collaborate and build something amazing together
           </p>
         </div>
-        <div className="grid w-1/2 grid-cols-1 gap-5 md:grid md:grid-cols-3 lg:grid lg:grid-cols-1">
+        <div className="grid lg:w-1/2 grid-cols-1 gap-5 md:grid md:grid-cols-3 lg:grid lg:grid-cols-1">
           <div className="flex flex-col gap-y-5">
             <div className="flex flex-col gap-y-5">
               <p className="text-xl font-semibold uppercase">
@@ -70,7 +70,7 @@ const Footer = () => {
       </div>
       <div className="bg-secondary">
         <div className="w-full border-t border-[#fff]"></div>
-        <div className="flex items-center justify-center py-8 text-center md:mx-10">
+        <div className="px-7 md:text-base text-sm flex items-center justify-center py-8 text-center md:mx-10">
           <p className="">
             Coded in Visual Studio Code by{' '}
             <span className="font-semibold text-[#aeb12a]">Tims.</span> Built
