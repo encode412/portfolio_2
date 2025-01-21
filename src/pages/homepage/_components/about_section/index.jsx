@@ -26,7 +26,7 @@ const AboutSection = () => {
             className="flex items-center"
           >
             <div className="flex flex-col gap-y-5">
-              <div className="flex items-center justify-center gap-x-10">
+              <div className="flex items-center justify-center gap-x-5">
                 <img src={Icons} className="w-[25%]" alt="icons" />
                 <img src={Icons} className="w-[25%]" alt="icons" />
               </div>
@@ -43,7 +43,7 @@ const AboutSection = () => {
               </motion.p>
               <hr />
 
-              <div className="flex items-center justify-center gap-x-10">
+              <div className="flex items-center justify-center gap-x-5">
                 <img src={Icons} className="w-[25%] object-contain" alt="icons" />
                 <img src={Icons} className="w-[25%] object-contain" alt="icons" />
               </div>

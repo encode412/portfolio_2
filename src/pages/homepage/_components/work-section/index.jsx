@@ -56,7 +56,7 @@ const WorkSection = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.4 }}
-        className="my-2 text-center text-base capitalize text-dark md:text-xl"
+        className="my-2 text-center text-lg font-medium capitalize text-dark md:text-xl"
       >
         A Selection of stuff i&apos;ve built
       </motion.p>
@@ -93,7 +93,7 @@ const WorkSection = () => {
                     <item.icon key={item.key} size={26} />
                   ))}
                 </div>
-                            
+
                 <Link className="group w-fit text-lg md:text-xl" to={work.link}>
                   View live{' '}
                   <div className="h-[2px] w-0 bg-secondary transition-all duration-500 group-hover:w-full"></div>
@@ -102,7 +102,7 @@ const WorkSection = () => {
             </div>
             <img
               src={work.image}
-              className="order-first w-1/2 md:order-last"
+              className="order-first md:w-1/2 object-contain w-full md:order-last"
               alt=""
             />
           </motion.div>

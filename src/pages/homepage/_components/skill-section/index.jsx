@@ -54,7 +54,7 @@ const SkillsSection = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.4 }}
-          className="my-2 text-center text-base text-primary md:text-xl"
+          className="my-2 text-center text-primary text-lg font-medium md:text-xl"
         >
           The skills, tools and technologies I use to bring your products to
           life:

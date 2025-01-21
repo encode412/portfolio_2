@@ -26,7 +26,7 @@ const TestimonialSection = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.4 }}
-          className="my-2 text-center text-base capitalize text-primary md:text-2xl"
+          className="my-2 text-center text-lg capitalize font-medium text-primary md:text-2xl"
         >
           Thing&apos;s people have said
         </motion.p>
