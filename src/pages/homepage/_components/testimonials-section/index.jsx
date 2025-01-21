@@ -9,7 +9,7 @@ const TestimonialSection = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.5, ease: 'easeInOut' }}
       name="testimonials"
-      className="bg-[#719cca]"
+      className="bg-[#174677]"
     >
       <div className="container mx-auto mb-16 px-7 md:px-20 lg:px-40 py-10 lg:py-20 text-dark md:mb-24">
         <motion.h2
@@ -17,7 +17,7 @@ const TestimonialSection = () => {
           whileInView={{ y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.2 }}
-          className="text-center text-3xl font-bold uppercase leading-[2.8rem] tracking-[3px] text-dark md:text-[52px] md:leading-none"
+          className="text-center text-3xl font-bold uppercase leading-[2.8rem] tracking-[3px] text-primary md:text-[52px] md:leading-none"
         >
           Testimonials
         </motion.h2>
@@ -32,7 +32,7 @@ const TestimonialSection = () => {
         </motion.p>
 
         <div className="mt-10">
-          <div className="flex md:flex-row gap-8 flex-col w-full items-center justify-between">
+          <div className="flex md:flex-row gap-8 flex-col w-full items-center justify-between text-primary">
             <div className="flex md:w-[75%] md:order-first order-last flex-col justify-end gap-y-2 md:text-xl">
               <QuoteUpIcon color="#ffffff" strokeWidth={2} size={45} />
               <p>
@@ -56,8 +56,8 @@ const TestimonialSection = () => {
             <div className="flex md:order-last order-first flex-col gap-y-2">
               <img src="" className="" alt="" />
               <p className="text-base text-center md:text-lg font-medium">
-                Joshua Adewale, <br /> <span className="text-secondary">Graphic Designer,</span> <br />
-                <span className="text-secondary">TED Media X.</span> 
+                Joshua Adewale, <br /> <span className="text-primary">Graphic Designer,</span> <br />
+                <span className="text-primary">TED Media X.</span> 
               </p>
             </div>
           </div>

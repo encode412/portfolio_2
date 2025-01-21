@@ -70,7 +70,7 @@ const Footer = () => {
       </div>
       <div className="bg-secondary">
         <div className="w-full border-t border-[#fff]"></div>
-        <div className="px-7 md:text-base text-sm flex items-center justify-center py-8 text-center md:mx-10">
+        <div className="px-7 md:text-base text-sm flex items-center justify-center py-8 text-start md:mx-10">
           <p className="">
             Coded in Visual Studio Code by{' '}
             <span className="font-semibold text-[#aeb12a]">Tims.</span> Built
