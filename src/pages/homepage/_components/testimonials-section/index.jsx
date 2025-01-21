@@ -32,7 +32,7 @@ const TestimonialSection = () => {
         </motion.p>
 
         <div className="mt-10">
-          <div className="flex md:flex-row flex-col w-full items-center justify-between">
+          <div className="flex md:flex-row gap-8 flex-col w-full items-center justify-between">
             <div className="flex md:w-[75%] md:order-first order-last flex-col justify-end gap-y-2 md:text-xl">
               <QuoteUpIcon color="#ffffff" strokeWidth={2} size={45} />
               <p>
@@ -55,8 +55,9 @@ const TestimonialSection = () => {
             </div>
             <div className="flex md:order-last order-first flex-col gap-y-2">
               <img src="" className="" alt="" />
-              <p className="text-base md:text-lg">
-                hello <span className="text-secondary">hello</span>
+              <p className="text-base text-center md:text-lg font-medium">
+                Joshua Adewale, <br /> <span className="text-secondary">Graphic Designer,</span> <br />
+                <span className="text-secondary">TED Media X.</span> 
               </p>
             </div>
           </div>

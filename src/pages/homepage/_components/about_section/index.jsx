@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Icons } from '../../../../constants/images';
+import { Icons, profile } from '../../../../constants/images';
 
 const AboutSection = () => {
   return (
@@ -26,6 +26,7 @@ const AboutSection = () => {
             className="flex items-center"
           >
             <div className="flex flex-col gap-y-5">
+            <img src={profile} className='w-[25%] rounded-[50%] mx-auto' alt="" />
               <div className="flex items-center justify-center gap-x-5">
                 <img src={Icons} className="w-[25%]" alt="icons" />
                 <img src={Icons} className="w-[25%]" alt="icons" />

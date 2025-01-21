@@ -13,5 +13,6 @@ export { default as WacIcon } from '../assets/wac.png'
 export { default as VscodeIcon } from '../assets/vscode.svg'
 export { default as TailwindIcon } from '../assets/tailwind.svg'
 export { default as plane } from '../assets/plane.jpg'
+export { default as profile } from '../assets/profile.jpg'
 
 export { default as Work01 } from '../assets/works/work01.png'
