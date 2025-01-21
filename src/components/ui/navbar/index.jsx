@@ -1,7 +1,7 @@
-import { Hamburger02Icon, Menu01Icon, Menu02Icon } from 'hugeicons-react';
-import React, { useState } from 'react';
-import { Link as ScrollLink, animateScroll } from 'react-scroll';
-import { Link, NavLink } from 'react-router-dom';
+import { Menu02Icon } from 'hugeicons-react';
+import  { useState } from 'react';
+import { Link as ScrollLink } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -22,7 +22,7 @@ const Navbar = () => {
             className="group w-fit cursor-pointer"
           >
             Home{' '}
-            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+            <div className="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
           </ScrollLink>
           <ScrollLink
             spy={true}
@@ -33,7 +33,7 @@ const Navbar = () => {
             className="group w-fit cursor-pointer"
           >
             About
-            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+            <div className="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
           </ScrollLink>
           <ScrollLink
             spy={true}
@@ -44,7 +44,7 @@ const Navbar = () => {
             className="group w-fit cursor-pointer"
           >
             Skills & Tools
-            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+            <div className="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
           </ScrollLink>
           <ScrollLink
             spy={true}
@@ -55,7 +55,7 @@ const Navbar = () => {
             className="group w-fit cursor-pointer"
           >
             Work
-            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+            <div className="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
           </ScrollLink>
           <ScrollLink
             spy={true}
@@ -66,7 +66,7 @@ const Navbar = () => {
             className="group w-fit cursor-pointer"
           >
             Testimonials
-            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+            <div className="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
           </ScrollLink>
           <ScrollLink
             spy={true}
@@ -77,7 +77,7 @@ const Navbar = () => {
             className="group w-fit cursor-pointer"
           >
             Contact
-            <div class="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
+            <div className="h-[2px] w-0 bg-[#719cca] transition-all duration-500 group-hover:w-full"></div>
           </ScrollLink>
         </div>
 

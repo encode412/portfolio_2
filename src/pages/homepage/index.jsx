@@ -10,7 +10,7 @@ import {
 
 const HomePage = () => {
   return (
-    <div className="snap-container">
+    <div>
       <Navbar />
       <HeroSection />
       <AboutSection />
