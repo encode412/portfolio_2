@@ -47,7 +47,7 @@ const TestimonialSection = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.5, ease: 'easeInOut' }}
       name="testimonials"
-      className="bg-[#174677]"
+      className="bg-[#174677] md:h-[38rem] relative h-[35rem] mb-16 md:mb-24"
     >
       <div className="container mx-auto mb-16 px-7 py-10 text-dark md:mb-24 md:px-20 lg:px-40 lg:py-20">
         <motion.h2
@@ -122,7 +122,7 @@ const TestimonialSection = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, ease: 'easeInOut', delay: 1 }}
-            className="mt-10 flex justify-center gap-2"
+            className="mt-10 flex justify-center absolute md:left-[50%] left-[45%] bottom-10 gap-2"
           >
             {testimonials.map((testimonial, index) => (
               <button

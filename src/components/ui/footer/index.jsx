@@ -3,7 +3,7 @@ import { InstagramIcon, Linkedin01Icon, TwitterIcon } from 'hugeicons-react';
 
 const Footer = () => {
   return (
-    <div className="mt-10            bg-secondary pt-10 text-primary lg:h-[50rem]">
+    <div className="bg-secondary pt-10 text-primary lg:h-[50rem]">
       <div className="container mx-auto flex h-full flex-col items-center gap-y-10 px-7 pb-10 pt-10 md:mx-10 md:flex-row lg:mx-auto lg:px-40">
         <div className="flex w-full flex-col gap-y-10">
           {/* <img src={whitelogo} alt="" className="w-32" /> */}

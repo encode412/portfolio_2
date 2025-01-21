@@ -75,7 +75,7 @@ const ContactFormSection = () => {
 
   return (
     <div
-      className="container mx-auto px-7 md:px-20 lg:mb-24 lg:px-40"
+      className="container mx-auto px-7 md:px-20 lg:mb-24 mb-16 lg:px-40"
       id="contact"
     >
       <div className="flex flex-col items-start justify-between gap-x-10 lg:flex-row">
