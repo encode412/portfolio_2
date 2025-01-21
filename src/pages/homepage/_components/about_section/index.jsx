@@ -16,7 +16,7 @@ const AboutSection = () => {
       >
         About me
       </motion.h2>
-      <div className="mt-20 flex md:flex-row flex-col w-full items-start justify-between gap-y-10 md:gap-x-20">
+      <div className="md:mt-20 mt-10 flex md:flex-row flex-col w-full items-start justify-between gap-y-10 md:gap-x-20">
         <div className="md:w-1/2">
           <motion.div
             initial={{ x: -100 }}
