@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Button } from '../../../../components';
 import {
   GithubIcon,
@@ -29,18 +30,18 @@ const HeroSection = () => {
       </div>
       <div className="absolute right-0 top-[40%] hidden w-[4%] bg-primary drop-shadow-sm md:block">
         <div className="flex flex-col items-center justify-center gap-y-4 px-2 py-2">
-          <div className="flex w-full cursor-pointer justify-center rounded-[5px] py-3 transition-all duration-200 ease-in hover:bg-[#efefef]">
+          <Link target="_blank" to="https://github.com/encode412" className="flex w-full cursor-pointer justify-center rounded-[5px] py-3 transition-all duration-200 ease-in hover:bg-[#efefef]">
             <GithubIcon size={30} strokeWidth={1.7} />
-          </div>
-          <div className="flex w-full cursor-pointer justify-center rounded-[5px] py-3 transition-all duration-200 ease-in hover:bg-[#efefef]">
+          </Link>
+          <Link to="https://x.com/tee_blaqc" target="_blank" className="flex w-full cursor-pointer justify-center rounded-[5px] py-3 transition-all duration-200 ease-in hover:bg-[#efefef]">
             <TwitterIcon size={30} strokeWidth={1.7} />
-          </div>
-          <div className="flex w-full cursor-pointer justify-center rounded-[5px] py-3 transition-all duration-200 ease-in hover:bg-[#efefef]">
+          </Link>
+          <Link target="_blank" to="https://www.linkedin.com/in/timothy-onyeacholam-12365920a/" className="flex w-full cursor-pointer justify-center rounded-[5px] py-3 transition-all duration-200 ease-in hover:bg-[#efefef]">
             <Linkedin02Icon size={30} strokeWidth={1.7} />
-          </div>
-          <div className="flex w-full cursor-pointer justify-center rounded-[5px] py-3 transition-all duration-200 ease-in hover:bg-[#efefef]">
+          </Link>
+          <Link target='_blank' to="https://wa.me/+2348120975429" className="flex w-full cursor-pointer justify-center rounded-[5px] py-3 transition-all duration-200 ease-in hover:bg-[#efefef]">
             <WhatsappIcon size={30} strokeWidth={1.7} />
-          </div>
+          </Link>
         </div>
       </div>
     </section>

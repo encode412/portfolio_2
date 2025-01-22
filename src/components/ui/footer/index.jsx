@@ -19,17 +19,17 @@ const Footer = () => {
               </p>
               <div className="flex items-center gap-x-4">
                 <div className="flex flex-col gap-x-5">
-                  <Link className="w-fit rounded-[50%] border-[.5px] border-[#fff] border-opacity-40 p-2">
+                  <Link target="_blank" to="https://www.instagram.com/tee_blaqc/" className="w-fit rounded-[50%] border-[.5px] border-[#fff] border-opacity-40 p-2">
                     <InstagramIcon size={25} color="#fff" />
                   </Link>
                 </div>
                 <div className="flex flex-col gap-x-5">
-                  <Link className="w-fit rounded-[50%] border-[.5px] border-[#fff] border-opacity-40 p-2">
+                  <Link to="https://x.com/tee_blaqc" target="_blank" className="w-fit rounded-[50%] border-[.5px] border-[#fff] border-opacity-40 p-2">
                     <TwitterIcon size={25} color="#fff" />
                   </Link>
                 </div>
                 <div className="flex flex-col gap-x-5">
-                  <Link className="w-fit rounded-[50%] border-[.5px] border-[#fff] border-opacity-40 p-2">
+                  <Link target='_blank' to="https://www.linkedin.com/in/timothy-onyeacholam-12365920a/" className="w-fit rounded-[50%] border-[.5px] border-[#fff] border-opacity-40 p-2">
                     <Linkedin01Icon size={25} color="#fff" />
                   </Link>
                 </div>
@@ -46,7 +46,7 @@ const Footer = () => {
             {/* <img src={twitterFotterIcon} alt="" /> */}
           </Link>
           <Link
-            to="https://www.instagram.com/gywde/"
+            to="https://www.instagram.com/tee_blaqc/"
             target="_blank"
             className="cursor-pointer"
           >
