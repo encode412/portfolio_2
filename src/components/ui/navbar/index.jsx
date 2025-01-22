@@ -1,5 +1,5 @@
 import { Menu02Icon } from 'hugeicons-react';
-import  { useState } from 'react';
+import { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed top-0 z-50 flex h-12 w-full items-center justify-between bg-primary px-6 font-medium uppercase tracking-[1px] drop-shadow-md md:h-14 md:px-12 lg:h-24 lg:px-20">
+      <div className="fixed top-0 z-50 flex h-12 w-full items-center justify-between bg-primary px-7 font-medium uppercase tracking-[1px] drop-shadow-md md:h-10 md:px-12 lg:h-20 lg:px-20">
         <Link to="/" className="lg:text-xl">
           <span>Timothy Onyeacholam</span>
         </Link>
@@ -82,12 +82,12 @@ const Navbar = () => {
         </div>
 
         <div className="block cursor-pointer md:hidden">
-          <Menu02Icon onClick={() => setToggleMenu(true)} />
+          <Menu02Icon color='#2f2f2f' onClick={() => setToggleMenu(true)} />
         </div>
       </div>
 
       {toggleMenu && (
-        <div className="animate-slideBottom fixed left-0 top-0 z-50 flex h-full w-full flex-col items-center gap-20 overflow-hidden bg-primary px-6 pt-6 transition-all duration-150">
+        <div className="fixed left-0 top-0 z-50 flex h-full w-full flex-col items-center gap-20 overflow-hidden bg-[#d5d5d5] px-6 pt-6 transition-all duration-150">
           <div className="flex w-full items-center justify-between">
             {/* <img src="/logo.png" alt="gywde" /> */}
 
@@ -138,19 +138,11 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="mt-20 flex w-full flex-col items-center space-y-6 text-base">
-            <Link to="/login" className="mx-auto w-[100%]">
+            <Link to="#" className="mx-auto w-[100%]">
               {/* <Button
                 className="w-full !text-base font-semibold  !text-lightgray hover:scale-95"
                 children="Log in"
                 backgroundColor={"transparent"}
-                padding={"15px 30px"}
-              /> */}
-            </Link>
-            <Link to="/signup" className="mx-auto w-[100%]">
-              {/* <Button
-                className="w-full !text-base font-semibold  text-primary hover:scale-95"
-                children="Sign up"
-                border={"none"}
                 padding={"15px 30px"}
               /> */}
             </Link>

@@ -4,7 +4,7 @@ import { Icons, profile } from '../../../../constants/images';
 const AboutSection = () => {
   return (
     <div
-      className="container mx-auto mb-16 px-7 md:px-20 lg:px-40 text-dark md:mb-24"
+      className="container mx-auto mb-16 px-7 md:px-20 lg:px-40 text-dark md:mb-24 overflow-hidden"
       name="about"
     >
       <motion.h2
@@ -57,7 +57,7 @@ const AboutSection = () => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.2 }}
-          className="md:w-1/2 text-base text-dark md:text-lg"
+          className="w-full text-base text-dark md:text-lg"
         >
           <p>
             I have 3 years of experience in UI/UX design in various tech
