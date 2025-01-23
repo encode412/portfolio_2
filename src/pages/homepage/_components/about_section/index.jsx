@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
 import { Icons, profile } from '../../../../constants/images';
+import { Link } from 'react-router-dom';
 
 const AboutSection = () => {
   return (
     <div
-      className="container mx-auto mb-16 px-7 md:px-20 lg:px-40 text-dark md:mb-24 overflow-hidden"
+      className="container mx-auto mb-16 overflow-hidden px-7 text-dark md:mb-24 md:px-20 lg:px-40"
       name="about"
     >
       <motion.h2
@@ -16,8 +17,8 @@ const AboutSection = () => {
       >
         About me
       </motion.h2>
-      <div className="md:mt-20 mt-10 flex md:flex-row flex-col w-full items-start justify-between gap-y-10 md:gap-x-20">
-        <div className="md:w-1/2">
+      <div className="mt-3 flex w-full flex-col items-center justify-between gap-y-10 md:flex-row md:gap-x-20">
+        <div className="md:w-3/4">
           <motion.div
             initial={{ x: -100 }}
             whileInView={{ x: 0 }}
@@ -26,7 +27,11 @@ const AboutSection = () => {
             className="flex items-center"
           >
             <div className="flex flex-col gap-y-5">
-            <img src={profile} className='w-[25%] rounded-[50%] mx-auto' alt="" />
+              <img
+                src={profile}
+                className="mx-auto w-[25%] rounded-[50%]"
+                alt=""
+              />
               <div className="flex items-center justify-center gap-x-5">
                 <img src={Icons} className="w-[25%]" alt="icons" />
                 <img src={Icons} className="w-[25%]" alt="icons" />
@@ -37,16 +42,25 @@ const AboutSection = () => {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.5 }}
-                className="text-center text-base md:text-2xl text-secondary"
+                className="text-center text-base text-secondary md:text-2xl"
               >
-                I have a passion for ideating, designing, and creating products
-                and experiences that make an impact to the world.
+                I&apos;m passionate about building innovative digital products
+                and experiences that leverage technology to drive positive
+                change and impact users&apos; lives
               </motion.p>
               <hr />
 
               <div className="flex items-center justify-center gap-x-5">
-                <img src={Icons} className="w-[25%] object-contain" alt="icons" />
-                <img src={Icons} className="w-[25%] object-contain" alt="icons" />
+                <img
+                  src={Icons}
+                  className="w-[25%] object-contain"
+                  alt="icons"
+                />
+                <img
+                  src={Icons}
+                  className="w-[25%] object-contain"
+                  alt="icons"
+                />
               </div>
             </div>
           </motion.div>
@@ -60,22 +74,24 @@ const AboutSection = () => {
           className="w-full text-base text-dark md:text-lg"
         >
           <p>
-            I have 3 years of experience in UI/UX design in various tech
-            companies. <br /> <br /> I&apos;m currently a Product Designer at First
-            Circle, a fast-growing fintech company providing financial services
-            to SMEs. I&apos;m also a co-founder of Effective Altruism Philippines, a
-            local chapter of the global EA movement. <br /> <br /> While in
-            university, I did 6 internships, including being a UI/UX Apprentice
-            at Stampede (a Malaysian UX agency), a Product Design Intern at
-            Kalibrr (a YC startup), and a UX Research Intern at Shopee (#1
-            E-Commerce App in SE Asia). <br /> <br /> I&apos;ve also had experience
-            launching a web app called HangTime, which my friend and I
-            co-created. Since HangTime&apos;s release in January 2017, we&apos;ve amassed
-            9,000+ users. I&apos;ve also held positions in UX and startup university
-            organizations, such as being the VP for HR at UX Society and the
-            president of ASES Manila. <br /> <br /> Scroll down to find case
-            studies of my designs and my most popular articles on UI/UX design
-            and self-development.
+            I&apos;m a Frontend Focused Web Developer building and managing the
+            Front-end of Websites and Web Applications that leads to the success
+            of the overall product. <br /> <br /> Check out some of my work in
+            the Projects section. I&apos;m also a co-founder of a local tech
+            community at my university{' '}
+            <Link
+              target="_blank"
+              to="https://etshub.netlify.app/"
+              className="font-medium transition-colors duration-200 ease-in-out hover:text-secondary"
+            >
+              (Education Technology Summit)
+            </Link>{' '}
+            where I like sharing content related to the stuff that I have
+            learned over the years in Web Development so it can help other
+            people of the Dev Community. <br />
+            <br /> I&apos;m open to Job opportunities where I can contribute,
+            learn and grow. If you have a good opportunity that matches my
+            skills and experience then don&apos;t hesitate to contact me.
           </p>
         </motion.div>
       </div>

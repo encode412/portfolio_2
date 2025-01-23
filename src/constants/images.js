@@ -20,3 +20,4 @@ export { default as plane } from '../assets/plane.jpg'
 export { default as profile } from '../assets/profile.jpg'
 
 export { default as Work01 } from '../assets/works/work01.png'
+export { default as VueJobs } from '../assets/works/vue-jobs.png'
