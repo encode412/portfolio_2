@@ -1,7 +1,14 @@
 import { GithubIcon, JavaScriptIcon, ReactIcon } from 'hugeicons-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { VueJobs, Work01 } from '../../../../constants/images';
+import {
+  // GYWDE,
+  llum,
+  nxg,
+  payina,
+  royals,
+  VueJobs,
+} from '../../../../constants/images';
 
 const WorkSection = () => {
   const workData = [
@@ -19,18 +26,74 @@ const WorkSection = () => {
       link: 'https://vuejobsnow.netlify.app',
       github: 'https://github.com/encode412/job-listings',
     },
+    // {
+    //   id: 2,
+    //   title: 'Personal Date Night',
+    //   description:
+    //     'For when you need a break from your partner but already got a babysitter. Now couples can go to different events in similar locations and at the same time. A group programming project with Can Rozanes, Irene Truong and Jamie Yeung.',
+    //   techStack: [
+    //     { icon: ReactIcon, key: 'react' },
+    //     { icon: GithubIcon, key: 'github' },
+    //     { icon: JavaScriptIcon, key: 'javascript' },
+    //   ],
+    //   image: GYWDE,
+    //   link: 'https://smartapproaches.online/',
+    // },
     {
-      id: 2,
-      title: 'Personal Date Night',
+      id: 3,
+      title: 'Loom Screen Recorder UI Clone',
       description:
-        'For when you need a break from your partner but already got a babysitter. Now couples can go to different events in similar locations and at the same time. A group programming project with Can Rozanes, Irene Truong and Jamie Yeung.',
+        'I re-created the frontend of Loom screen recorder official website. I got attracted to their beautiful UI. It was a great experience for me to build the frontend.',
       techStack: [
         { icon: ReactIcon, key: 'react' },
         { icon: GithubIcon, key: 'github' },
         { icon: JavaScriptIcon, key: 'javascript' },
       ],
-      image: Work01,
-      link: '#',
+      image: llum,
+      link: 'https://llum.netlify.app/',
+      github: 'https://github.com/encode412/toom',
+    },
+    {
+      id: 4,
+      title: 'NextGen Hub',
+      description:
+        'Landing page, where design meets functionality. Offering of exciting career prospects in the ever-evolving field of technology. Seamless integrations and user friendly interface.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: nxg,
+      link: 'https://nextgenhub.com.ng/',
+      // github: 'https://github.com/encode412/toom',
+    },
+    {
+      id: 5,
+      title: 'Payina',
+      description:
+        'A cutting-edge web payment platform—an all-in-one solution to effortlessly manage your money. With secure transactions, seamless integration, and user-friendly features. Payina simplifies the process of sending, receiving, and tracking payments online.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: payina,
+      link: 'https://payina.com.ng/',
+      // github: 'https://github.com/encode412/toom',
+    },
+    {
+      id: 6,
+      title: 'Royals Restaurant',
+      description:
+        'Royals is a web template i created targeting the resturant and food industry, which anyone can use to present their own business online.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: royals,
+      link: 'https://royalstemplate.netlify.app/',
+      github: 'https://github.com/encode412/royals_template',
     },
   ];
 

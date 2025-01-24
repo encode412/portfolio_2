@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link to="/" className="lg:text-xl">
           <span>Timothy Onyeacholam</span>
         </Link>
-        <div className="text-lightgray hidden items-center justify-center md:flex md:space-x-10 md:text-xs lg:space-x-20 lg:text-lg">
+        <div className="text-lightgray hidden items-center justify-center md:flex md:space-x-10 md:text-sm lg:space-x-14 lg:text-base">
           <ScrollLink
             spy={true}
             smooth={true}

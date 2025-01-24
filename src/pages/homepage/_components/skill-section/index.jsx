@@ -63,7 +63,7 @@
             transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.4 }}
             className="my-2 text-center text-primary text-lg font-medium md:text-xl"
           >
-            The skills, tools and technologies I use to bring your products to
+            Some of the skills, tools and technologies I use to bring your products to
             life:
           </motion.p>
           <motion.div
@@ -82,7 +82,7 @@
                 transition={{
                   duration: 0.5,
                   ease: 'easeInOut',
-                  delay: index * 0.1,
+                  delay: index * 0.06,
                 }}
                 className="flex w-full flex-col items-center gap-y-1 text-center text-xl font-semibold uppercase"
               >

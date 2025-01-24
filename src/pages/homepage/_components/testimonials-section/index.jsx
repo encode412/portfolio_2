@@ -31,7 +31,7 @@ const TestimonialSection = () => {
       setCurrentIndex(
         (currentIndex) => (currentIndex + 1) % testimonials.length
       );
-    }, 10000);
+    }, 30000);
 
     return () => clearInterval(intervalId);
   }, []);

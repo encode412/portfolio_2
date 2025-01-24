@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const AboutSection = () => {
   return (
     <div
-      className="container mx-auto mb-16 overflow-hidden px-7 text-dark md:mb-24 md:px-20 lg:px-40"
+      className="container mx-auto mb-16 overflow-hidden px-7 py-20 text-dark md:mb-24 md:px-20 lg:px-40"
       name="about"
     >
       <motion.h2
@@ -82,7 +82,7 @@ const AboutSection = () => {
             <Link
               target="_blank"
               to="https://etshub.netlify.app/"
-              className="font-medium transition-colors duration-200 ease-in-out hover:text-secondary"
+              className="font-medium text-secondary transition-colors duration-200 ease-in-out"
             >
               (Education Technology Summit)
             </Link>{' '}
