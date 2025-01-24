@@ -1,4 +1,4 @@
-import { Menu02Icon } from 'hugeicons-react';
+import { Cancel01Icon, Menu02Icon } from 'hugeicons-react';
 import { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom';
@@ -82,58 +82,108 @@ const Navbar = () => {
         </div>
 
         <div className="block cursor-pointer md:hidden">
-          <Menu02Icon color='#2f2f2f' onClick={() => setToggleMenu(true)} />
+          <Menu02Icon color="#2f2f2f" onClick={() => setToggleMenu(true)} />
         </div>
       </div>
 
       {toggleMenu && (
-        <div className="fixed left-0 top-0 z-50 flex h-full w-full flex-col items-center gap-20 overflow-hidden bg-[#d5d5d5] px-6 pt-6 transition-all duration-150">
+        <div className="fixed left-0 top-0 z-50 flex h-screen w-full flex-col items-center gap-20 overflow-hidden bg-secondary px-6 pt-6 transition-all duration-150">
           <div className="flex w-full items-center justify-between">
             {/* <img src="/logo.png" alt="gywde" /> */}
-
-            <span
-              className="right-6 top-5 cursor-pointer text-2xl"
+            <Cancel01Icon
+              className="right-6 top-5 cursor-pointer text-2xl text-primary"
               onClick={() => setToggleMenu(false)}
-            >
-              X
-            </span>
+            />
           </div>
           <ul className="w-full list-none">
             <li className="mt-12 cursor-pointer text-xl text-primary">
               <div className="flex items-center justify-center">
-                <Link to="/" className="text-lightgray text-lg font-normal">
+                <ScrollLink
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-170}
+                  to="home"
+                  onClick={() => setToggleMenu(false)}
+                  className="text-lightgray text-lg font-normal"
+                >
                   Home
-                </Link>
+                </ScrollLink>
               </div>
             </li>
             <li className="mt-12 cursor-pointer text-xl text-primary">
               <div className="flex items-center justify-center">
-                <Link
-                  to="/about-us"
+                <ScrollLink
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-170}
+                  to="about"
+                  onClick={() => setToggleMenu(false)}
                   className="text-lightgray text-lg font-normal"
                 >
-                  About Us
-                </Link>
+                  About
+                </ScrollLink>
               </div>
             </li>
             <li className="mt-12 cursor-pointer text-xl text-primary">
               <div className="flex items-center justify-center">
-                <Link
-                  to="/services"
+                <ScrollLink
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-170}
+                  to="skills"
+                  onClick={() => setToggleMenu(false)}
                   className="text-lightgray text-lg font-normal"
                 >
-                  Services
-                </Link>
+                  Skills
+                </ScrollLink>
               </div>
             </li>
             <li className="mt-12 cursor-pointer text-xl text-primary">
               <div className="flex items-center justify-center">
-                <Link
-                  to="/vendor"
+                <ScrollLink
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-170}
+                  to="work"
+                  onClick={() => setToggleMenu(false)}
                   className="text-lightgray text-lg font-normal"
                 >
-                  Be a Vendor
-                </Link>
+                  Work
+                </ScrollLink>
+              </div>
+            </li>
+            <li className="mt-12 cursor-pointer text-xl text-primary">
+              <div className="flex items-center justify-center">
+                <ScrollLink
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-170}
+                  to="testimonials"
+                  onClick={() => setToggleMenu(false)}
+                  className="text-lightgray text-lg font-normal"
+                >
+                  Testimonials
+                </ScrollLink>
+              </div>
+            </li>
+            <li className="mt-12 cursor-pointer text-xl text-primary">
+              <div className="flex items-center justify-center">
+                <ScrollLink
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-170}
+                  to="contact"
+                  onClick={() => setToggleMenu(false)}
+                  className="text-lightgray text-lg font-normal"
+                >
+                  Contact
+                </ScrollLink>
               </div>
             </li>
           </ul>
