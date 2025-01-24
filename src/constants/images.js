@@ -26,3 +26,6 @@ export { default as llum } from '../assets/works/llum.png';
 export { default as nxg } from '../assets/works/nxg.png';
 export { default as payina } from '../assets/works/payina.png';
 export { default as royals } from '../assets/works/royals.png';
+
+export { default as joshProfile } from '../assets/josh.jpg';
+export { default as direProfile } from '../assets/dire.jpg';
