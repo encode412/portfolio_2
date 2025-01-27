@@ -1,5 +1,6 @@
 import { Cancel01Icon, Menu02Icon } from 'hugeicons-react';
 import { useState } from 'react';
+// import { logo } from '../../../constants/images';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ const Navbar = () => {
       <div className="fixed top-0 z-50 flex h-12 w-full items-center justify-between bg-primary px-7 font-medium uppercase tracking-[1px] drop-shadow-md md:h-10 md:px-12 lg:h-20 lg:px-20">
         <Link to="/" className="lg:text-xl">
           <span>Timothy Onyeacholam</span>
+          {/* <img src={logo} className='w' alt="" /> */}
         </Link>
         <div className="text-lightgray hidden items-center justify-center md:flex md:space-x-10 md:text-sm lg:space-x-14 lg:text-base">
           <ScrollLink

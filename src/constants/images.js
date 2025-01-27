@@ -29,3 +29,5 @@ export { default as royals } from '../assets/works/royals.png';
 
 export { default as joshProfile } from '../assets/josh.jpg';
 export { default as direProfile } from '../assets/dire.jpg';
+
+export { default as logo } from '../assets/logo.png';
