@@ -2,11 +2,13 @@ import { GithubIcon, JavaScriptIcon, ReactIcon } from 'hugeicons-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import {
+  gywde,
   // GYWDE,
   llum,
   nxg,
   payina,
   royals,
+  sawl,
   VueJobs,
 } from '../../../../constants/images';
 
@@ -26,19 +28,19 @@ const WorkSection = () => {
       link: 'https://vuejobsnow.netlify.app',
       github: 'https://github.com/encode412/job-listings',
     },
-    // {
-    //   id: 2,
-    //   title: 'Personal Date Night',
-    //   description:
-    //     'For when you need a break from your partner but already got a babysitter. Now couples can go to different events in similar locations and at the same time. A group programming project with Can Rozanes, Irene Truong and Jamie Yeung.',
-    //   techStack: [
-    //     { icon: ReactIcon, key: 'react' },
-    //     { icon: GithubIcon, key: 'github' },
-    //     { icon: JavaScriptIcon, key: 'javascript' },
-    //   ],
-    //   image: GYWDE,
-    //   link: 'https://smartapproaches.online/',
-    // },
+    {
+      id: 2,
+      title: 'Get Your Work Done Easily (GYWDE)',
+      description:
+      'As part of a talented development team, I helped build GYWDE, a cutting-edge platform connecting customers with trusted vendors for various services. With a seamless user interface and robust backend infrastructure, GYWDE streamlines the process of finding and hiring reliable service providers. My contributions included developing the vendor and admin dashboard, implementing the service booking system, ensuring secure payment processing and implementing various endpoints.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: gywde,
+      link: 'https://smartapproaches.org/',
+    },
     {
       id: 3,
       title: 'Loom Screen Recorder UI Clone',
@@ -57,7 +59,7 @@ const WorkSection = () => {
       id: 4,
       title: 'NextGen Hub',
       description:
-        'Landing page, where design meets functionality. Offering of exciting career prospects in the ever-evolving field of technology. Seamless integrations and user friendly interface.',
+        'As a key contributor to a high-performing development team, we developed the NextGen Hub landing page, where design meets functionality. This platform offers exciting career prospects in the ever-evolving field of technology, featuring seamless integrations and a user-friendly interface. My contributions included developing the responsive layout, implementing interactive elements and backend endpoints, and ensuring cross-browser compatibility.',
       techStack: [
         { icon: ReactIcon, key: 'react' },
         { icon: GithubIcon, key: 'github' },
@@ -71,7 +73,7 @@ const WorkSection = () => {
       id: 5,
       title: 'Payina',
       description:
-        'A cutting-edge web payment platform—an all-in-one solution to effortlessly manage your money. With secure transactions, seamless integration, and user-friendly features. Payina simplifies the process of sending, receiving, and tracking payments online.',
+        'I collaborated with a team of developers to build Payina, a cutting-edge web payment platform—an all-in-one solution to effortlessly manage your money. With secure transactions, seamless integration, and user-friendly features, Payina simplifies the process of sending, receiving, and tracking payments online. My contributions included developing the payment gateway integration, implementing secure transaction endpoints, and designing the user-friendly landing pages and dashboard.',
       techStack: [
         { icon: ReactIcon, key: 'react' },
         { icon: GithubIcon, key: 'github' },
@@ -79,6 +81,20 @@ const WorkSection = () => {
       ],
       image: payina,
       link: 'https://payina.com.ng/',
+      // github: 'https://github.com/encode412/toom',
+    },
+    {
+      id: 7,
+      title: 'Smart Approaches',
+      description:
+        'Together with a team of dedicated software developers to build Smart Approaches, a robust online learning ecosystem—empowering students to master in-demand tech skills. With modular courses, hands-on projects, recorded classes and expert mentorship, Smart Approaches streamlines the process of acquiring expertise in tech. My contributions included developing the landing page and the student dashboard, implementing the endpoints, and integrating the payment gateway.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: sawl,
+      link: 'https://smartapproaches.org/',
       // github: 'https://github.com/encode412/toom',
     },
     {

@@ -21,7 +21,8 @@ export { default as profile } from '../assets/profile.jpg';
 
 export { default as Work01 } from '../assets/works/work01.png';
 export { default as VueJobs } from '../assets/works/vue-jobs.png';
-// export { default as sawl } from '../assets/works/sawl.png';
+export { default as sawl } from '../assets/works/sawl.png';
+export { default as gywde } from '../assets/works/gywde.png';
 export { default as llum } from '../assets/works/llum.png';
 export { default as nxg } from '../assets/works/nxg.png';
 export { default as payina } from '../assets/works/payina.png';
