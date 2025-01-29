@@ -32,14 +32,14 @@ const WorkSection = () => {
       id: 2,
       title: 'Get Your Work Done Easily (GYWDE)',
       description:
-      'As part of a talented development team, I helped build GYWDE, a cutting-edge platform connecting customers with trusted vendors for various services. With a seamless user interface and robust backend infrastructure, GYWDE streamlines the process of finding and hiring reliable service providers. My contributions included developing the vendor and admin dashboard, implementing the service booking system, ensuring secure payment processing and implementing various endpoints.',
+        'As part of a talented development team, I helped build GYWDE, a cutting-edge platform connecting customers with trusted vendors for various services. With a seamless user interface and robust backend infrastructure, GYWDE streamlines the process of finding and hiring reliable service providers. My contributions included developing the vendor and admin dashboard, implementing the service booking system, ensuring secure payment processing and implementing various endpoints.',
       techStack: [
         { icon: ReactIcon, key: 'react' },
         { icon: GithubIcon, key: 'github' },
         { icon: JavaScriptIcon, key: 'javascript' },
       ],
       image: gywde,
-      link: 'https://smartapproaches.org/',
+      link: 'http://gywde.com/',
     },
     {
       id: 3,
