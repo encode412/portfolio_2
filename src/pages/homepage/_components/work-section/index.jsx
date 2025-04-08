@@ -2,8 +2,8 @@ import { GithubIcon, JavaScriptIcon, ReactIcon } from 'hugeicons-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import {
+  ets,
   gywde,
-  // GYWDE,
   llum,
   nxg,
   payina,
@@ -14,6 +14,20 @@ import {
 
 const WorkSection = () => {
   const workData = [
+    {
+      id: 0,
+      title: 'ETS Community',
+      description:
+        "An elegantly designed landing page for a tech campus community with a modern, responsive interface. The ETS Community website features smooth animations and intuitive navigation while effectively communicating the community's offerings. The clean layout balances professional aesthetics with engaging visuals to attract tech professionals, students, and entrepreneurs.",
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: ets,
+      link: 'https://etshub.org',
+      // github: 'https://github.com/encode412/job-listings',
+    },
     {
       id: 1,
       title: 'Vue Jobs Listing',
@@ -138,7 +152,7 @@ const WorkSection = () => {
         transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.4 }}
         className="my-2 text-center text-lg font-medium capitalize text-dark md:text-xl"
       >
-        A Selection of stuff i&apos;ve built
+        A Selection of projects i&apos;ve built
       </motion.p>
       <motion.div
         initial={{ opacity: 0 }}

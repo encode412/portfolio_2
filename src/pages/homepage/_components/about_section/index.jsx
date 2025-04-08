@@ -86,7 +86,7 @@ const AboutSection = () => {
             >
               (Education Technology Summit)
             </Link>{' '}
-            where I like sharing content related to the stuff that I have
+            where I share content related to what that I have
             learned over the years in Web Development so it can help other
             people of the Dev Community. <br />
             <br /> I&apos;m open to Job opportunities where I can contribute,
