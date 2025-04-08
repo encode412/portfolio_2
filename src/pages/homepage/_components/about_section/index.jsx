@@ -81,7 +81,7 @@ const AboutSection = () => {
             community at my university{' '}
             <Link
               target="_blank"
-              to="https://etshub.netlify.app/"
+              to="https://etshub.org/"
               className="font-medium text-secondary transition-colors duration-200 ease-in-out"
             >
               (Education Technology Summit)
