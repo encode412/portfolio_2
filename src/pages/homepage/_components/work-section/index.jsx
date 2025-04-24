@@ -143,7 +143,7 @@ const WorkSection = () => {
         transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.2 }}
         className="text-center text-3xl font-bold uppercase leading-[2.8rem] tracking-[3px] text-dark md:text-[52px] md:leading-none"
       >
-        Work
+        Work and ...
       </motion.h2>
       <motion.p
         initial={{ opacity: 0 }}
@@ -152,7 +152,7 @@ const WorkSection = () => {
         transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.4 }}
         className="my-2 text-center text-lg font-medium capitalize text-dark md:text-xl"
       >
-        A Selection of projects i&apos;ve built
+        A Selection of  i&apos;ve built
       </motion.p>
       <motion.div
         initial={{ opacity: 0 }}
