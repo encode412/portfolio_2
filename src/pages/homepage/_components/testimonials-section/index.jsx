@@ -6,7 +6,7 @@ import { direProfile, joshProfile } from '../../../../constants/images';
 const testimonials = [
   {
     quote:
-      'I’ve had the pleasure of working with Timothy, an amazing web developer, on several exciting projects. We’ve worked together on solution platforms like Loadin, a ride-hailing solution similar to Uber, and Onepay, an advanced payment system like Opay. Timothy is highly skilled and always finds creative ways to solve problems. He knows how to take complex ideas and turn them into simple, user-friendly platforms. Working with him is always easy because he’s detail-oriented, reliable, and committed to getting the job done well. I highly recommend Timothy to anyone looking for a web developer who delivers great work and innovative solutions. He’s definitely one of the best people I’ve worked with',
+      'Timothy is a superbly talented web developer, and I would highly recommend him! He is skilled, creative, and detail-oriented, always providing unique solutions. Timothy is dependable and has a commitment to excellence, making him so much fun to work with. One of the best professionals I\'ve ever had the pleasure of working with.',
     author: 'Adewale Joshua Oladimeji',
     designation: 'Graphics and Brand Designer, Shopshare, ZeldaDevs.',
     portfolio: 'https://www.linkedin.com/in/joshua-adewale-15921122',
@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     quote:
-      'Tim is a rare gem in the world of web development. With a keen eye for detail and a passion for innovative solutions, he transformed our website into a stunning reflection of our brand. His collaborative spirit, transparency, and professionalism made the entire process seamless and enjoyable. The impact of his work has been profound. Our new website has not only elevated our online presence but also become a powerful tool for driving growth and engagement. Tim is more than just a developer, hes a strategic partner who genuinely cares about his clients&apos; success.',
+      'Tim\'s a gem of a web developer and exceeded our expectations. Attention to the minutiae and innovative thinking transformed our website into a serious brand asset. He is a true collaborator who works transparently with his clients so that everything just flows. His new website has made leaps in our online profile and growth, now with real engagement. Tim is that partner who comes through and shows magic results for his clients and entirely believes in their success.',
     designation: 'Software Engineer, TechSpace.',
     author: 'Onaneye Joseph',
     portfolio: 'https://www.linkedin.com/in/onaneye-ayodeji-057180247/',
@@ -58,7 +58,7 @@ const TestimonialSection = () => {
         >
           Testimonials
         </motion.h2>
-        <motion.p
+        {/* <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -66,7 +66,7 @@ const TestimonialSection = () => {
           className="my-2 text-center text-lg font-medium capitalize text-primary md:text-2xl"
         >
           Thing&apos;s people have said
-        </motion.p>
+        </motion.p> */}
 
         <div className="mt-10">
           <motion.div

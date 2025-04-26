@@ -56,7 +56,7 @@
           >
             Skills and Tools
           </motion.h2>
-          <motion.p
+          {/* <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -65,7 +65,7 @@
           >
             Some of the skills, tools and technologies I use to bring your products to
             life:
-          </motion.p>
+          </motion.p> */}
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}

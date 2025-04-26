@@ -18,7 +18,7 @@ const WorkSection = () => {
       id: 0,
       title: 'ETS Community',
       description:
-        "An elegantly designed landing page for a tech campus community with a modern, responsive interface. The ETS Community website features smooth animations and intuitive navigation while effectively communicating the community's offerings. The clean layout balances professional aesthetics with engaging visuals to attract tech professionals, students, and entrepreneurs.",
+        'ETS is a community platform that showcases the activities of its members. It serves as a hub for members to share their experiences and connect with one another. The platform is designed to be user-friendly and visually appealing, making it easy for members to navigate and engage with the content.',
       techStack: [
         { icon: ReactIcon, key: 'react' },
         { icon: GithubIcon, key: 'github' },
@@ -44,9 +44,9 @@ const WorkSection = () => {
     },
     {
       id: 2,
-      title: 'Get Your Work Done Easily (GYWDE)',
+      title: 'Get Your Work Done Effortlessly (GYWDE)',
       description:
-        'As part of a talented development team, I helped build GYWDE, a cutting-edge platform connecting customers with trusted vendors for various services. With a seamless user interface and robust backend infrastructure, GYWDE streamlines the process of finding and hiring reliable service providers. My contributions included developing the vendor and admin dashboard, implementing the service booking system, ensuring secure payment processing and implementing various endpoints.',
+        'A platform that bridges the gap between brands and trusted vendors, facilitating effortless connections with over 2,000 verified service providers for a seamless consumer experience. GYWDE is a comprehensive solution for brands seeking reliable vendors, offering a user-friendly interface and a wide range of services to meet diverse needs.',
       techStack: [
         { icon: ReactIcon, key: 'react' },
         { icon: GithubIcon, key: 'github' },
@@ -59,7 +59,7 @@ const WorkSection = () => {
       id: 3,
       title: 'Loom Screen Recorder UI Clone',
       description:
-        'I re-created the frontend of Loom screen recorder official website. I got attracted to their beautiful UI. It was a great experience for me to build the frontend.',
+        'A clone of the official Loom screen recorder website, showcasing a beautiful UI. The project was a great experience in building a responsive and visually appealing frontend.',
       techStack: [
         { icon: ReactIcon, key: 'react' },
         { icon: GithubIcon, key: 'github' },
@@ -73,7 +73,7 @@ const WorkSection = () => {
       id: 4,
       title: 'NextGen Hub',
       description:
-        'As a key contributor to a high-performing development team, we developed the NextGen Hub landing page, where design meets functionality. This platform offers exciting career prospects in the ever-evolving field of technology, featuring seamless integrations and a user-friendly interface. My contributions included developing the responsive layout, implementing interactive elements and backend endpoints, and ensuring cross-browser compatibility.',
+        'NextGen Hub is a job portal that connects job seekers with top companies in Nigeria. It offers a user-friendly interface, advanced search filters, and personalized job recommendations to help users find their dream jobs quickly and easily.',
       techStack: [
         { icon: ReactIcon, key: 'react' },
         { icon: GithubIcon, key: 'github' },
@@ -87,7 +87,7 @@ const WorkSection = () => {
       id: 5,
       title: 'Payina',
       description:
-        'I collaborated with a team of developers to build Payina, a cutting-edge web payment platform—an all-in-one solution to effortlessly manage your money. With secure transactions, seamless integration, and user-friendly features, Payina simplifies the process of sending, receiving, and tracking payments online. My contributions included developing the payment gateway integration, implementing secure transaction endpoints, and designing the user-friendly landing pages and dashboard.',
+        'Payina is a payment platform that allows users to send and receive money online. It is a secure and easy-to-use platform that makes it easy to manage your money.',
       techStack: [
         { icon: ReactIcon, key: 'react' },
         { icon: GithubIcon, key: 'github' },
@@ -101,7 +101,7 @@ const WorkSection = () => {
       id: 7,
       title: 'Smart Approaches',
       description:
-        'Together with a team of dedicated software developers to build Smart Approaches, a robust online learning ecosystem—empowering students to master in-demand tech skills. With modular courses, hands-on projects, recorded classes and expert mentorship, Smart Approaches streamlines the process of acquiring expertise in tech. My contributions included developing the landing page and the student dashboard, implementing the endpoints, and integrating the payment gateway.',
+        'An educational platform empowering individuals with knowledge and practical skills in Business Analysis, Data Analysis, and Software Development. Smart Approaches offers a comprehensive curriculum, hands-on projects, and expert mentorship to help learners excel in their chosen fields, with a focus on real-world applications and industry-relevant skills.',
       techStack: [
         { icon: ReactIcon, key: 'react' },
         { icon: GithubIcon, key: 'github' },
@@ -115,7 +115,7 @@ const WorkSection = () => {
       id: 6,
       title: 'Royals Restaurant',
       description:
-        'Royals is a web template i created targeting the resturant and food industry, which anyone can use to present their own business online.',
+        'Royals is a web template created targeting the resturant and food industry, which anyone can use to present their own business online.',
       techStack: [
         { icon: ReactIcon, key: 'react' },
         { icon: GithubIcon, key: 'github' },

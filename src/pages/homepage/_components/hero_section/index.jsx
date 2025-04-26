@@ -19,10 +19,10 @@ const HeroSection = () => {
       >
         <div className="flex h-[80vh] flex-col items-center justify-center gap-y-8 px-5 pt-10 text-center transition-all duration-1000 ease-out md:h-screen md:gap-y-10 lg:gap-y-8">
           <div className="text-3xl font-bold uppercase leading-[2.8rem] tracking-[3px] md:text-[48px] md:leading-none">
-            Hello, I&apos;m Timothy Onyeacholam
+            Timothy Onyeacholam
           </div>
           <div className="text-center text-lg font-normal text-dark md:w-3/4 md:text-xl md:leading-8 lg:w-[42%] lg:text-xl">
-            A skilled Frontend Developer designing
+            Skilled Frontend Developer with a focus on designing
             and building responsive, intuitive, and high-performance web
             applications that deliver exceptional user experiences.
           </div>
