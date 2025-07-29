@@ -8,7 +8,9 @@ import {
   medics,
   nxg,
   payina,
+  portfolio,
   sawl,
+  tuboh,
   VueJobs,
 } from '../../../../constants/images';
 
@@ -53,6 +55,19 @@ const WorkSection = () => {
       image: ets,
       link: 'https://etshub.org',
     },
+    {
+      id: 0,
+      title: 'Tuboh',
+      description:
+        'Tuboh is a platform where you can easily find doctors, schedule virtual consultations, order lab tests, and medications, all from the comfort of your own home.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: tuboh,
+      link: 'https://www.tuboh.com/',
+    },
 
     {
       id: 2,
@@ -94,7 +109,19 @@ const WorkSection = () => {
       image: payina,
       link: 'https://payina.com.ng/',
     },
-
+    {
+      id: 5,
+      title: 'Executive Portfolio Website',
+      description:
+        'A dynamic portfolio website built for the founder of a thriving startup, featuring comprehensive sections including About, Awards, Features, Publications, and Reviews. This professional showcase highlights their entrepreneurial journey, industry recognition, innovative solutions, thought leadership content, and client testimonials, creating a powerful digital presence that establishes credibility and attracts strategic partnerships.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: portfolio,
+      link: 'https://ibukunaina.com/',
+    },
     {
       id: 1,
       title: 'Vue Jobs Listing',
@@ -194,7 +221,7 @@ const WorkSection = () => {
                     View live{' '}
                     <div className="h-[2px] w-0 bg-secondary transition-all duration-500 group-hover:w-full"></div>
                   </Link>
-                  {work.github && (
+                  {work.github ? (
                     <Link
                       target="_blank"
                       className="group w-fit text-lg md:text-xl"
@@ -203,6 +230,10 @@ const WorkSection = () => {
                       View Github Repo{' '}
                       <div className="h-[2px] w-0 bg-secondary transition-all duration-500 group-hover:w-full"></div>
                     </Link>
+                  ) : (
+                    <span className="text-lg md:text-xl text-gray-500">
+                      Private Github Repo
+                    </span>
                   )}
                 </div>
               </div>

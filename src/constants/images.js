@@ -29,6 +29,8 @@ export { default as payina } from '../assets/works/payina.png';
 export { default as royals } from '../assets/works/royals.png';
 export { default as ets } from '../assets/works/ets.png';
 export { default as medics } from '../assets/works/medics.png';
+export { default as tuboh } from '../assets/works/tuboh.png';
+export { default as portfolio } from '../assets/works/portfolio.png';
 
 export { default as joshProfile } from '../assets/josh.jpg';
 export { default as direProfile } from '../assets/dire.jpg';
