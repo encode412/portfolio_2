@@ -5,15 +5,41 @@ import {
   ets,
   gywde,
   llum,
+  medics,
   nxg,
   payina,
-  royals,
   sawl,
   VueJobs,
 } from '../../../../constants/images';
 
 const WorkSection = () => {
   const workData = [
+    {
+      id: 6,
+      title: 'Medics Partners Ad Landing Page',
+      description:
+        'Medics Partners is a premier multi-specialist medical center dedicated to providing premium healthcare services. Our state-of-the-art facility is staffed by a team of highly skilled doctors and consultants, ensuring that you receive the best possible care.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: medics,
+      link: 'https://medicspartners.org/ad-landing',
+    },
+    {
+      id: 7,
+      title: 'Smart Approaches',
+      description:
+        'An educational platform empowering individuals with knowledge and practical skills in Business Analysis, Data Analysis, and Software Development. Smart Approaches offers a comprehensive curriculum, hands-on projects, and expert mentorship to help learners excel in their chosen fields, with a focus on real-world applications and industry-relevant skills.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: sawl,
+      link: 'https://smartapproaches.org/',
+    },
     {
       id: 0,
       title: 'ETS Community',
@@ -26,8 +52,49 @@ const WorkSection = () => {
       ],
       image: ets,
       link: 'https://etshub.org',
-      // github: 'https://github.com/encode412/job-listings',
     },
+
+    {
+      id: 2,
+      title: 'Get Your Work Done Effortlessly (GYWDE)',
+      description:
+        'A platform that bridges the gap between brands and trusted vendors, facilitating effortless connections with over 2,000 verified service providers for a seamless consumer experience. GYWDE is a comprehensive solution for brands seeking reliable vendors, offering a user-friendly interface and a wide range of services to meet diverse needs.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: gywde,
+      link: 'http://gywde.com/',
+    },
+
+    {
+      id: 4,
+      title: 'NextGen Hub',
+      description:
+        'NextGen Hub is a job portal that connects job seekers with top companies in Nigeria. It offers a user-friendly interface, advanced search filters, and personalized job recommendations to help users find their dream jobs quickly and easily.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: nxg,
+      link: 'https://nextgenhub.com.ng/',
+    },
+    {
+      id: 5,
+      title: 'Payina',
+      description:
+        'Payina is a payment platform that allows users to send and receive money online. It is a secure and easy-to-use platform that makes it easy to manage your money.',
+      techStack: [
+        { icon: ReactIcon, key: 'react' },
+        { icon: GithubIcon, key: 'github' },
+        { icon: JavaScriptIcon, key: 'javascript' },
+      ],
+      image: payina,
+      link: 'https://payina.com.ng/',
+    },
+
     {
       id: 1,
       title: 'Vue Jobs Listing',
@@ -43,19 +110,6 @@ const WorkSection = () => {
       github: 'https://github.com/encode412/job-listings',
     },
     {
-      id: 2,
-      title: 'Get Your Work Done Effortlessly (GYWDE)',
-      description:
-        'A platform that bridges the gap between brands and trusted vendors, facilitating effortless connections with over 2,000 verified service providers for a seamless consumer experience. GYWDE is a comprehensive solution for brands seeking reliable vendors, offering a user-friendly interface and a wide range of services to meet diverse needs.',
-      techStack: [
-        { icon: ReactIcon, key: 'react' },
-        { icon: GithubIcon, key: 'github' },
-        { icon: JavaScriptIcon, key: 'javascript' },
-      ],
-      image: gywde,
-      link: 'http://gywde.com/',
-    },
-    {
       id: 3,
       title: 'Loom Screen Recorder UI Clone',
       description:
@@ -68,62 +122,6 @@ const WorkSection = () => {
       image: llum,
       link: 'https://llum.netlify.app/',
       github: 'https://github.com/encode412/toom',
-    },
-    {
-      id: 4,
-      title: 'NextGen Hub',
-      description:
-        'NextGen Hub is a job portal that connects job seekers with top companies in Nigeria. It offers a user-friendly interface, advanced search filters, and personalized job recommendations to help users find their dream jobs quickly and easily.',
-      techStack: [
-        { icon: ReactIcon, key: 'react' },
-        { icon: GithubIcon, key: 'github' },
-        { icon: JavaScriptIcon, key: 'javascript' },
-      ],
-      image: nxg,
-      link: 'https://nextgenhub.com.ng/',
-      // github: 'https://github.com/encode412/toom',
-    },
-    {
-      id: 5,
-      title: 'Payina',
-      description:
-        'Payina is a payment platform that allows users to send and receive money online. It is a secure and easy-to-use platform that makes it easy to manage your money.',
-      techStack: [
-        { icon: ReactIcon, key: 'react' },
-        { icon: GithubIcon, key: 'github' },
-        { icon: JavaScriptIcon, key: 'javascript' },
-      ],
-      image: payina,
-      link: 'https://payina.com.ng/',
-      // github: 'https://github.com/encode412/toom',
-    },
-    {
-      id: 7,
-      title: 'Smart Approaches',
-      description:
-        'An educational platform empowering individuals with knowledge and practical skills in Business Analysis, Data Analysis, and Software Development. Smart Approaches offers a comprehensive curriculum, hands-on projects, and expert mentorship to help learners excel in their chosen fields, with a focus on real-world applications and industry-relevant skills.',
-      techStack: [
-        { icon: ReactIcon, key: 'react' },
-        { icon: GithubIcon, key: 'github' },
-        { icon: JavaScriptIcon, key: 'javascript' },
-      ],
-      image: sawl,
-      link: 'https://smartapproaches.org/',
-      // github: 'https://github.com/encode412/toom',
-    },
-    {
-      id: 6,
-      title: 'Royals Restaurant',
-      description:
-        'Royals is a web template created targeting the resturant and food industry, which anyone can use to present their own business online.',
-      techStack: [
-        { icon: ReactIcon, key: 'react' },
-        { icon: GithubIcon, key: 'github' },
-        { icon: JavaScriptIcon, key: 'javascript' },
-      ],
-      image: royals,
-      link: 'https://royalstemplate.netlify.app/',
-      github: 'https://github.com/encode412/royals_template',
     },
   ];
 

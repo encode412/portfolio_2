@@ -28,6 +28,7 @@ export { default as nxg } from '../assets/works/nxg.png';
 export { default as payina } from '../assets/works/payina.png';
 export { default as royals } from '../assets/works/royals.png';
 export { default as ets } from '../assets/works/ets.png';
+export { default as medics } from '../assets/works/medics.png';
 
 export { default as joshProfile } from '../assets/josh.jpg';
 export { default as direProfile } from '../assets/dire.jpg';
