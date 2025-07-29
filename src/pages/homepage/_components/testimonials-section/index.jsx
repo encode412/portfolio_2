@@ -6,7 +6,7 @@ import { direProfile, joshProfile } from '../../../../constants/images';
 const testimonials = [
   {
     quote:
-      'Timothy is a superbly talented web developer, and I would highly recommend him! He is skilled, creative, and detail-oriented, always providing unique solutions. Timothy is dependable and has a commitment to excellence, making him so much fun to work with. One of the best professionals I\'ve ever had the pleasure of working with.',
+      "Timothy is a superbly talented frontend engineer, and I would highly recommend him! He is skilled, creative, and detail-oriented, always providing unique solutions. He is dependable, making him so much fun to work with. One of the best professionals I've ever had the pleasure of working with.",
     author: 'Adewale Joshua Oladimeji',
     designation: 'Graphics and Brand Designer, Shopshare, ZeldaDevs.',
     portfolio: 'https://www.linkedin.com/in/joshua-adewale-15921122',
@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     quote:
-      'Tim\'s a gem of a web developer and exceeded our expectations. Attention to the minutiae and innovative thinking transformed our website into a serious brand asset. He is a true collaborator who works transparently with his clients so that everything just flows. His new website has made leaps in our online profile and growth, now with real engagement. Tim is that partner who comes through and shows magic results for his clients and entirely believes in their success.',
+      "Tim's a gem of a software developer and exceeded our expectations. He transformed our website into a serious brand asset.",
     designation: 'Software Engineer, TechSpace.',
     author: 'Onaneye Joseph',
     portfolio: 'https://www.linkedin.com/in/onaneye-ayodeji-057180247/',
@@ -46,7 +46,7 @@ const TestimonialSection = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.5, ease: 'easeInOut' }}
       name="testimonials"
-      className="relative mb-16 h-[70rem] bg-[#174677] md:mb-24 md:h-[42rem]"
+      className="relative mb-16 h-[50rem] bg-[#174677] md:mb-24 md:h-[42rem]"
     >
       <div className="container mx-auto mb-16 px-7 py-10 text-dark md:mb-24 md:px-20 lg:px-40 lg:py-20">
         <motion.h2
